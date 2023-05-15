@@ -32,5 +32,12 @@ void angka::cetakData() {
 	}
 }
 
+int main(){
+	angka belajarcpp(3); //Constructor Dipanggil
+	angka* ptrBelajarcpp = new angka(5); //constructor
+	delete ptrBelajarcpp; //Destructor Dipanggil
+
+	return 0;
+}//Destructor Dipanggil
 
 
